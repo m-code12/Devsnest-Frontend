@@ -1,0 +1,25 @@
+body {
+	border: 2px solid black;
+	padding-left: 40px;
+	margin-right:  200px;
+	margin-left: 50px;
+	margin-top: 30px;
+	font-family: Verdana;
+	background-color: #F0FFF0;
+}
+
+.first {
+	color: blue;
+}
+
+.second{
+	color: green;
+}
+
+#final{
+	color: brown;
+}
+
+#last {
+	color:  red;
+}
