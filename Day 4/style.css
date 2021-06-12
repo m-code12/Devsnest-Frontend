@@ -25,7 +25,7 @@
         left: 200px;
         top: 84px;
         transform-origin: top;
-        animation: spin 60s linear infinite;
+        animation: animate 60s linear infinite;
 }
 
 .seconds{
@@ -38,7 +38,7 @@
         left: 200px;
         top: 85px;
         transform-origin: bottom;
-        animation: spin 3600s linear infinite;
+        animation: animate 3600s linear infinite;
 }
       
 .hours{
@@ -51,10 +51,10 @@
         left: 200px;
         top: -175px;
         transform-origin: bottom;
-        animation: spin 216000s linear infinite;
+        animation: animate 216000s linear infinite;
 }
 
-@keyframes spin {
+@keyframes animate {
     0%{transform: rotate(0deg)}
     25%{transform: rotate(90deg);}
     50%{transform: rotate(180deg);}
