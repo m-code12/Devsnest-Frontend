@@ -1,24 +1,24 @@
 * {
-        background-color: #E0FFFF;
-      }
-    .clock{
+     background-color: #E0FFFF;
+  }
+  
+.clock{
       position:absolute;
-    width: 400px;
+      width: 400px;
       height:400px;
       border-radius:50%;
       background: white;
-      
       border: 60px solid red;
       display: inline-block;
       justify-content: center;
-    align-items: center;
+      align-items: center;
       margin-left: 400px;
       margin-top: 50px;
     }
     
-      .min{
+.min{
         width: 7px;
-      height: 180px;
+        height: 180px;
         border-radius: 10%;
         background: black;
         position: relative;
@@ -26,10 +26,11 @@
         top: 84px;
         transform-origin: top;
         animation: spin 60s linear infinite;
-      }
-      .seconds{
+}
+
+.seconds{
         width: 7px;
-      height: 120px;
+        height: 120px;
         border-radius: 10%;
         position: relative;
         background: black;
@@ -37,11 +38,12 @@
         left: 200px;
         top: 85px;
         transform-origin: bottom;
-    animation: spin 3600s linear infinite;
-      }
-      .hours{
+        animation: spin 3600s linear infinite;
+}
+      
+.hours{
         width: 7px;
-      height: 80px;
+        height: 80px;
         border-radius: 10%;
         position: relative;
         background: black;
@@ -49,10 +51,10 @@
         left: 200px;
         top: -175px;
         transform-origin: bottom;
-    animation: spin 216000s linear infinite;
-      }
-      @keyframes spin {
-    
+        animation: spin 216000s linear infinite;
+}
+
+@keyframes spin {
     0%{transform: rotate(0deg)}
     25%{transform: rotate(90deg);}
     50%{transform: rotate(180deg);}
