@@ -1,0 +1,18 @@
+* {
+  background-color: #FFEFD5;
+}
+
+input[type="button"]
+{
+  width: 100%;
+  background-color: #A9A9A9;
+  border: solid black 2px;
+}
+
+input[type="text"]
+{
+  width: 100%;
+  background-color: #A9A9A9;
+  border: solid black 2px;
+}
+    
