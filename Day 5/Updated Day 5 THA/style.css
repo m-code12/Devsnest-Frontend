@@ -1,0 +1,21 @@
+*{
+  font-family: Verdana;
+  background-color: #FAEBD7;
+}
+
+.btn-add{
+  background-color: #00BFFF;
+}
+
+.btn-sub{
+  background-color: #FF0000;
+}
+
+.btn-mul{
+  background-color: #FFD700;
+}
+
+.btn-divide{
+  background-color: #7FFF00;
+}
+
