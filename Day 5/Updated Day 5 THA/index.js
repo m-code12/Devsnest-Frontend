@@ -43,7 +43,7 @@ btnmul.addEventListener("mouseout", function changec(){
 
 btndivide.addEventListener("click", function add(){
 	const c = +inpfirst.value / +inpsecond.value;
-	alert("The Multiplication of "+inpfirst.value+" and "+inpsecond.value+" is "+c);
+	alert("The Division of "+inpfirst.value+" and "+inpsecond.value+" is "+c);
 })
 
 btndivide.addEventListener("mouseover", function changec(){
