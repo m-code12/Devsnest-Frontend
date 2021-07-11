@@ -1,0 +1,46 @@
+body{
+  background-color: #FAEBD7;
+}
+
+
+.container{
+    
+    height: 600px;
+    width: 1200px;
+    background-color:#C71585;
+    display: grid;
+    grid-template-columns: repeat(6, 200px);
+  grid-template-rows: repeat(6, 100px);
+  margin: 40px 40px 15px 65px;
+  
+}
+
+.box{
+    background-color: #FF1493;
+    display: grid;
+    box-sizing: border-box;
+    border: 1px solid black;
+    margin: 3px;
+}
+
+.box:hover{
+  background-color: #FFC0CB;
+  
+}
+
+.boxclicked{
+  background-color: #FF69B4;
+
+}
+
+.seat{
+  color: #0000FF;
+  text-align: center;
+  font-size: larger;
+  font-weight: bolder;
+  margin-top: 35px;
+}
+
+#booked{
+  margin-right: 50px;
+}
